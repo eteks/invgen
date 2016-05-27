@@ -4,13 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/*@font-face {
+@font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.6.2');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.2') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.2') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.2') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.2') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.2#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
-}*/
+}
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -18,7 +18,7 @@ body {
 
 .navbar-fixed-top .nav {
     padding: 15px 25px;
-    margin: 16px -40px 0px 0px;
+   /* margin: 16px -40px 0px 0px;*/
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -48,7 +48,7 @@ background-color: #fff !important;
 @media(max-width: 640px){
     .navbar-nav{
     background-color: white;
-     padding: 0 60px 0 0;
+    /*padding: 0 60px 0 0;*/
     text-align: center;
     width: 100%;
 }
@@ -657,7 +657,7 @@ h3{
     float: inherit;
     font-family: Montserrat;
     font-size: 29px;
-    padding: 210px 0 0 125px;
+    padding: 480px 0 0 125px;
 }
 
 @media(max-width: 640px){
@@ -1077,6 +1077,175 @@ h3{
 }
 @media(max-width:640px){
     .signupnow{
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-top: 17px;
+    text-align: center;
+}
+}
+.form-signin1 {
+    margin: -4px auto;
+    /*max-width: 330px;*/
+    /*padding: 15px;*/
+}
+@media (max-width:640px) {
+    .form-signin1 {
+    margin:0px auto;
+    /*max-width: 330px;*/
+    padding: 15px;
+}
+}
+.form-signin1, .form-signin1 .checkbox {
+    margin-bottom: 0px;
+    padding-top: 0;
+    width: 440px;
+}
+@media(max-width:640px){
+    .form-signin1, .form-signin1 .checkbox {
+    margin-bottom: 114px;
+    width: 330px;
+}
+
+}
+.form-signin1-heading1{
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 82px;
+}
+@media(max-width:640px){
+    .form-signin1-heading1{
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-align: left;
+}
+}
+.form-signin1 input[type="name"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+    font-family:Montserrat;
+}
+}
+@media(max-width:640px){
+.form-signin1 input[type="name"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+}
+}
+.form-signin1 input[type="email"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+    font-family:Montserrat;
+}
+}
+@media(max-width:640px){
+.form-signin1 input[type="email"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+}
+}
+.form-signin1 input[type="password"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+    font-family:Montserrat;
+}
+@media(max-width:640px){
+.form-signin1 input[type="password"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+}
+}
+.form-signin1 input[type="country"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+    font-family:Montserrat;
+}
+@media(max-width:640px){
+.form-signin1 input[type="country"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 25px;
+}
+}
+.form-signin1 .form-control {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+}
+.form-signin1 .checkbox {
+    font-weight: normal;
+    color: white;
+    font-family: Montserrat;
+    font-size:15px;
+}
+@media(max-width:640px){
+    .form-signin1 .checkbox {
+    font-weight: normal;
+    color: white;
+    font-family: Montserrat;
+    font-size:12px;
+}
+}
+
+.form-signin1 .form-signin1-heading, .form-signin1 .checkbox {
+    margin-bottom: 10px;
+}
+.bg-img1 {
+    background:url('../images/bgimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-size: 100% 100%;
+     height:595px;
+}
+@media(max-width: 640px){
+    .bg-img1 {
+    background:url('../images/bgimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-size: 100% 100%;
+     height:733px;
+}
+}
+.btn2{
+    background:linear-gradient(85deg, #7fa529, #d2e554);
+    text-align:center;
+    font-family: Montserrat;
+    font-size: 21px;
+    color:black;
+    width:440px;
+}
+@media(max-width: 640px){
+.btn2{
+    background:linear-gradient(85deg, #7fa529, #d2e554);
+    text-align:center;
+    font-family: Montserrat;
+    font-size: 21px;
+    color:black;
+    width: 125px;
+}
+}
+.signupnow1{
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-top: 17px;
+    text-align: center;
+
+}
+@media(max-width:640px){
+    .signupnow1{
     color: white;
     font-family: Montserrat;
     font-size: 14px;
