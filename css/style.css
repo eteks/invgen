@@ -1803,89 +1803,14 @@ h3{
     color: #56910f;
 }
 }
-/*.taxcont1 input[type="from"] {
-    font-family: Montserrat;
-    height: 78px;
-    margin-bottom: 176px;
-    margin-left: 76px;
-    margin-top: -91px;
-    position: absolute;
-    text-align: left;
-    width: 191px;
-
+.yourlogo a{
+        color: #56910f;
 }
-@media(max-width:640px){
-.taxcont1 input[type="from"] {
-    font-family: Montserrat;
-    height: 78px;
-    margin-bottom: 176px;
-    margin-left: 76px;
-    margin-top: -91px;
-    position: absolute;
-    text-align: left;
-    width: 191px;
-
+@media(max-width: 640px){
+    .yourlogo a{
+        color: #56910f;
 }
 }
-.taxcont1 input[type="blank"] {
-    font-family: Montserrat;
-    height: 29px;
-    margin-bottom: 176px;
-    margin-left: 270px;
-    margin-top: -91px;
-    position: absolute;
-    text-align: center;
-    width: 87px;
-    overflow: hidden;
-
-}
-@media(max-width:640px){
-.taxcont1 input[type="blank"] {
-    font-family: Montserrat;
-    height: 29px;
-    margin-bottom: 176px;
-    margin-left: 270px;
-    margin-top: -91px;
-    position: absolute;
-    text-align: center;
-    width: 87px;
-    overflow: hidden;
-
-}
-}
-.taxcont1 hr{
-    border: 1px outset black;
-}
-@media(max-width:640px){
-.taxcont1 hr{
-    border: 1px outset black;
-
-}
-}
-.taxcont1 input[type="textarea"]{
-    height: 22px;
-    margin-left: 10px;
-    width: 75px;
-}
-@media(max-width:640px){
-.taxcont1 input[type="textarea"]{
-    height: 22px;
-    margin-left: 10px;
-    width: 75px;
-}
-}
-.taxcont1 input[type="textarea1"]{
-    height: 70px;
-    margin-left: 10px;
-    width: 165px;
-}
-@media(max-width:640px){
-.taxcont1 input[type="textarea1"]{
-    height: 70px;
-    margin-left: 10px;
-    width: 165px;
-}
-}*/
 .from{
     font-family: Montserrat;
     height: 65px;
